@@ -111,9 +111,14 @@ header h3 {
     color:black;
     flex: 1 30%;
     padding-right: 100px;
+    position: relative;
     
 }
 
+.portblock{
+    position:absolute;
+    bottom: 0;
+}
 
 #portfolio img {
     height: 500px;
@@ -155,7 +160,6 @@ header h3 {
 
 #portfolio h3 {
     font-family: arial;
-    letter spacing: 8px;
 
 }
 
@@ -169,20 +173,43 @@ header h3 {
 
     color:black;
     font-size: 20px;
-    position: relative; 
-    bottom: 0px;
-    
 }
 
-#portfolio a:hover {
+#portfolio img:hover {
     background: yellow;
     
 }
 
 
-        /* footer */
+                          /* footer */
 
 footer div {
     background:rgba(0,0,0,.40);
     height: 800px
 }
+
+footer article {
+    background-color: aqua;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    align-self: center;
+    padding: 100px;
+}
+
+            /* fonts */
+footer h1 {
+
+}
+
+footer nav ul {
+    width: 50 %;
+
+}
+
+footer nav ul {
+    display: flex;
+    flex-wrap:wrap;
+}
+
