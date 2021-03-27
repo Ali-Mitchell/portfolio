@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.background-splash {
+    background-image: url("./assests/images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header div {
+    background:rgba(0,0,0,.40);
+    height: 400px;
+    align-self: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.topblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+header nav ul :hover {
+    color:brown
+}
+
+header h1 {
+    font-family: arial;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 50px;
+    padding: 20px 0px 20px 0px;
+}
+
+header h1 a span {
+    font-family: arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-style: bold;
+
+}
+
+header h2 {
+    letter-spacing: 10px;
+    font-family: arial;
+    text-transform: uppercase;
+    color: white;
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+header a {
+    text-decoration: none;
+    font-family: arial;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+
+
+header h3 {
+    text-decoration: none;
+    font-family: arial;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+header h3 {
+    display: flex ;
+    justify-content: center;
+    margin-top: 200px
+}
+
+                       /* portfolio */
+
+#portfolio {
+    background: white;
+    height: 800px;
+    display: flex;
+    flex: wrap;
+    justify-content: center; 
+
+}
+#portfolio .text {
+    color:black;
+    flex: 1 30%;
+    padding-right: 100px;
+    
+}
+
+
+#portfolio img {
+    height: 500px;
+    display:flex;
+    flex-wrap: wrap;
+    flex: 2 70%;
+    align-items: center;
+}
+
+#portfolio article {
+    display:flex;
+    width: 70%;
+    height: 500px;
+    align-self: center;
+
+}
+
+         /* fonts */
+
+#portfolio h1 {
+    text-decoration: none;
+    font-family: arial;
+    text-transform: uppercase;
+    display: flex;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+    font-size: 50px;
+
+}
+
+#portfolio h2 {
+    letter-spacing: 10px;
+    font-family: arial;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+#portfolio h3 {
+    font-family: arial;
+    letter spacing: 8px;
+
+}
+
+#portfolio p {
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#portfolio a {
+
+    color:black;
+    font-size: 20px;
+    display: flex;
+    
+}
+
+#portfolio a:hover {
+    background: yellow;
+    
+}
