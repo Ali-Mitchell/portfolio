@@ -8,12 +8,12 @@
 .background-splash {
     background-image: url("./assests/images/hero.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: left;
     height: 800px;
 }
 
 header div {
-    background:rgba(0,0,0,.40);
+    background:rgba(0,0,0,.50);
     height: 400px;
     align-self: auto;
     display: flex;
@@ -110,15 +110,10 @@ header h3 {
 #portfolio .text {
     color:black;
     flex: 1 30%;
-    padding-right: 100px;
-    position: relative;
-    
+    padding-right: 100px;  
 }
 
-.portblock{
-    position:absolute;
-    bottom: 0;
-}
+
 
 #portfolio img {
     height: 500px;
@@ -184,12 +179,12 @@ header h3 {
                           /* footer */
 
 footer div {
-    background:rgba(0,0,0,.40);
+    background:rgba(0,0,0,.50);
     height: 800px
 }
 
 footer article {
-    background-color: aqua;
+
     height: 600px;
     display:flex;
     flex-direction: column;
@@ -200,16 +195,42 @@ footer article {
 
             /* fonts */
 footer h1 {
-
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 75px;
+    padding: 20px 0px 20px 0px;
 }
 
-footer nav ul {
-    width: 50 %;
+footer h2 {
+    font-family: arial;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 30px;
+    padding: 20px 0px 20px 0px;
+}
 
+footer p {
+    font-family: arial;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5;
 }
 
 footer nav ul {
     display: flex;
     flex-wrap:wrap;
+    list-style-type: none;
+}
+
+footer nav ul li {
+    padding: 20px;
 }
 
