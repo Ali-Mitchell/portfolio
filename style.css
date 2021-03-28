@@ -232,7 +232,7 @@ border: 1px solid;
 #about .text {
     display: flex;
     flex-wrap: wrap;
-    align-self: flex-start;
+    align-items: flex-start;
     flex-direction: column;
 }
 
