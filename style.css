@@ -233,6 +233,7 @@ border: 1px solid;
     display: flex;
     flex-wrap: wrap;
     align-self: flex-start;
+    flex-direction: column;
 }
 
 #about h1 {
