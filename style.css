@@ -111,14 +111,12 @@ header h3 {
 #portfolio .header {
     display:flex;
     width: 70%;
-    height: 500px;
     align-self: center;
 }
 
 #portfolio .body {
 display:flex;
 width: 70%;
-height: 500px;
 align-self: center;
 }
 
@@ -146,8 +144,8 @@ border: 1px solid;
   box-shadow: 5px 10px #888888;
 }
 
-#portfolio .header text {
-    color:black;
+#portfolio .header .text {
+    color: black;
     flex: 1 30%;
     padding-right: 100px;  
 }
@@ -217,6 +215,51 @@ border: 1px solid;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
+}
+
+#about article {
+    display:flex;
+    width: 50%;
+    align-self: center;
+}
+
+#about img {
+    padding: 0px 40px 40px 0px;
+    display: flex;
+    flex:1;
+}
+
+#about .text {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+
+#about h1 {
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+    font-size: 60px;
+
+}
+
+#about h2 {
+    letter-spacing: 10px;
+    font-family: arial;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+#about p {
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+
 }
                           /* footer */
 
