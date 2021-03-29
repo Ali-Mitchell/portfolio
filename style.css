@@ -222,12 +222,14 @@ border: 1px solid;
     display:flex;
     width: 50%;
     align-self: center;
+    padding: 40px;
 }
 
 #about img {
     padding: 0px 40px 40px 0px;
     display: flex;
     flex:1;
+    height: 600px;
 }
 
 #about .text {
@@ -322,11 +324,11 @@ footer nav ul li {
 }
 
                     /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1500px) {
   
 .background-splash {
     height: 300px;
-    width: 980px;
+    width: 100%
    
 }
 
@@ -421,6 +423,7 @@ header h1 a {
     height: 400px;
     padding-top: 30px;
 }
+
 #about p {
     padding-bottom: 50px;
 }
@@ -432,6 +435,10 @@ footer div {
 
 }
 
+footer article {
+    padding: 50px;
+}
+
 #contact {
    height: 0px;
 
@@ -441,11 +448,13 @@ footer h1 {
     font-size: 50px;
 }
 
+
+
 footer h2 {
     padding: 0px;
 }
 
-
+}
  
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 320px) {
@@ -490,7 +499,6 @@ header nav ul li {
     padding:0 6px 20px 6px;
 }
 
-}
 
 header h2 {
     text-align: center;
