@@ -110,6 +110,7 @@ header h3 {
 
 #portfolio .header {
     display:flex;
+    flex-wrap:wrap;
     width: 70%;
     align-self: center;
 }
@@ -320,3 +321,147 @@ footer nav ul li {
     padding: 20px;
 }
 
+                    /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  
+.background-splash {
+    height: 300px;
+    width: 980px;
+   
+}
+
+header div { 
+    height: 250px;
+  }
+  
+header h1 a {
+    font-size: 48px;
+}
+
+            /* portfolio */
+#portfolio {
+    height: inherit;
+}
+
+#portfolio h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    letter-spacing: 1px;
+
+}
+
+#portfolio h2 {
+    font-size: 17px;
+    letter-spacing: 1px;
+    
+}
+
+#portfolio h3 {
+    font-size: 17px;
+    
+}
+
+#portfolio p {
+    font-size: 17px;
+}
+
+#portfolio a {
+    font-size: 17px;
+}
+
+#portfolio .header {
+    padding-top: 40px;
+    justify-self:center;
+}
+
+#portfolio .header img {
+    flex-wrap: wrap;
+    height: 400px;
+    width: 680px;
+    padding: 20px 0px 20px 0px
+}
+
+        /* portfolio body */
+
+#portfolio .body img {
+    height: 300px;
+    margin: 20px 0px 20px 0px;
+
+}
+
+#portfolio .body .align-text-left {
+        padding-left: 0px;
+    }
+    
+#portfolio .body .align-text-right {
+        padding-right: 0px;
+    }
+
+
+#portfolio .body {
+    flex-direction: column;
+    padding: 40px 0px 40px 0px;
+    width: 700px;
+    align-items:center;
+
+}
+
+            /* about */
+
+#about {
+    height: inherit;
+}
+
+#about article {
+    flex-direction: column;
+}
+
+#about img {
+    height: 400px;
+    padding-top: 30px;
+}
+#about p {
+    padding-bottom: 50px;
+}
+
+            /* footer */
+
+footer div {
+    height: 300px;
+
+}
+
+#contact {
+   height: 0px;
+
+}
+
+footer h1 {
+    font-size: 50px;
+}
+
+footer h2 {
+    padding: 0px;
+}
+
+
+
+
+
+
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    header h1 {
+      /* this will be applied on any screen between 768px and 575px */
+      font-size: 80px;
+    }
+
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    header h1 {
+      /* this will be applied on any screen smaller than 575px */
+      font-size: 100px;
+    }
+  }
