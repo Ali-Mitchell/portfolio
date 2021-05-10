@@ -115,6 +115,10 @@ header h3 {
     align-self: center;
 }
 
+#portfolio .header .text {
+    margin-bottom: 40px;
+}
+
 #portfolio .body {
 display:flex;
 width: 70%;
