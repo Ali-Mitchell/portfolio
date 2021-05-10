@@ -101,7 +101,7 @@ header h3 {
 
 #portfolio {
     background: white;
-    height: 1800px;
+    height: 4000x;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
@@ -119,6 +119,7 @@ header h3 {
 display:flex;
 width: 70%;
 align-self: center;
+margin-bottom: 60px;
 }
 
 #portfolio .body .text {
@@ -143,6 +144,10 @@ align-items: center;
 border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #888888;
+}
+
+#portfolio .header {
+    margin: 60px;
 }
 
 #portfolio .header .text {
